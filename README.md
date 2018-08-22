@@ -12,7 +12,8 @@ try {
   e.printStackTrace();
 }
 </pre>
-<h3>
+<h3>POJO</h3>
+<pre>
 class DemoObject {
 	@UColumn(Head="姓名",Index=1)
 	private String name;
@@ -27,5 +28,5 @@ class DemoObject {
 	@UStyleBinder()
 	private Date birthday;
  }
-</h3>
+</pre>
 看懂或者看不懂，代码就在这里，谢谢。
